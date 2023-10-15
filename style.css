@@ -136,7 +136,26 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: 1.5s;
+
 }
+
+.ex-9-img:hover {
+    margin: 50px 100px;
+    width: 400px;
+    transform: scale(1.5);
+    transition: 1.5s;
+    filter: grayscale(70%);
+    border-radius: 20px;
+    
+}
+
+
+
+
+
+
+
 .ex-10-icon {
     font-size: 60px;
 }
