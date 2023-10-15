@@ -42,7 +42,21 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition: 0.5s;
 }
+
+.ex-3-square:hover {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+
+
+
+
 .ex-4-square {
     width: 100px;
     height: 100px;
