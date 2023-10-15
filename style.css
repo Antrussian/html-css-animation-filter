@@ -18,7 +18,26 @@
     width: 100px;
     height: 100px;
     background: red;
+    transform-origin: left;
+    transition: transform 2s;  
 }
+
+
+.ex-2-square:active {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transform: scaleX(11);
+    transform-origin: left;
+    transition: transform 2s;
+}
+
+
+
+
+
+
+
 .ex-3-square {
     width: 100px;
     height: 100px;
